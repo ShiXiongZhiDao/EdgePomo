@@ -272,3 +272,10 @@ Feedback and bug reports: [GitHub Issues](https://github.com/ShiXiongZhiDao/Edge
 EdgePomo is **free to use**.
 
 No open-source licence file has been added to this repository yet; until one is, please treat it as **all rights reserved** — do not redistribute the source or the installers commercially.
+
+---
+
+## 📮 Contact
+
+- Author: 师兄知道
+- WeChat Official Account: 师兄知道
