@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+<radialGradient id="r" cx="35%" cy="25%" r="80%"><stop stop-color="#ff6a61"/><stop offset=".55" stop-color="#fa3d38"/><stop offset="1" stop-color="#d9232e"/></radialGradient>
+<radialGradient id="f" cx="45%" cy="35%" r="80%"><stop stop-color="#fffaf0"/><stop offset="1" stop-color="#ffe7d8"/></radialGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9bdc5a"/><stop offset="1" stop-color="#4caf43"/></linearGradient>
+<filter id="s"><feGaussianBlur in="SourceAlpha" stdDeviation="16"/><feOffset dy="14"/><feColorMatrix values="0 0 0 0 .65 0 0 0 0 .18 0 0 0 0 .15 0 0 0 .18 0"/><feBlend in="SourceGraphic"/></filter>
+</defs>
+<g transform="translate(512 512) scale(1.354 1.25) translate(-512 -512)">
+<!-- alarm bells -->
+<g filter="url(#s)" fill="url(#r)"><path d="M174 322c-24-37-11-80 26-101 34-19 76-6 94 29l16 33-92 65z"/><path d="M850 322c24-37 11-80-26-101-34-19-76-6-94 29l-16 33 92 65z"/></g>
+<!-- feet --> <g fill="url(#r)"><ellipse cx="312" cy="875" rx="84" ry="48"/><ellipse cx="712" cy="875" rx="84" ry="48"/></g>
+<!-- body --> <ellipse cx="512" cy="570" rx="378" ry="354" fill="url(#r)" filter="url(#s)"/>
+<!-- highlight --> <ellipse cx="315" cy="445" rx="55" ry="95" fill="#ffd9cf" opacity=".65" transform="rotate(28 315 445)"/><circle cx="253" cy="528" r="18" fill="#ffd9cf" opacity=".55"/>
+<!-- leaves --> <g fill="url(#g)"><ellipse cx="512" cy="247" rx="42" ry="100"/><ellipse cx="430" cy="245" rx="100" ry="39" transform="rotate(10 430 245)"/><ellipse cx="594" cy="245" rx="100" ry="39" transform="rotate(-10 594 245)"/><ellipse cx="447" cy="281" rx="74" ry="34" transform="rotate(-30 447 281)"/><ellipse cx="577" cy="281" rx="74" ry="34" transform="rotate(30 577 281)"/></g>
+<!-- cute face --> <g><circle cx="394" cy="414" r="30" fill="#5b302b"/><circle cx="630" cy="414" r="30" fill="#5b302b"/><circle cx="384" cy="404" r="10" fill="#fff"/><circle cx="620" cy="404" r="10" fill="#fff"/><circle cx="406" cy="427" r="4" fill="#fff"/><circle cx="642" cy="427" r="4" fill="#fff"/><path d="M470 430Q512 468 554 430" fill="none" stroke="#5b302b" stroke-width="13" stroke-linecap="round"/><ellipse cx="337" cy="489" rx="45" ry="24" fill="#ff9ca2" opacity=".72"/><ellipse cx="687" cy="489" rx="45" ry="24" fill="#ff9ca2" opacity=".72"/></g>
+<!-- dial --> <circle cx="512" cy="655" r="214" fill="#f8d4c4" opacity=".55"/><circle cx="512" cy="646" r="204" fill="url(#f)"/>
+<!-- dots, placed between numerals to avoid overlap --> <g fill="#ff6255"><circle cx="594" cy="503" r="6"/><circle cx="654" cy="564" r="6"/><circle cx="654" cy="728" r="6"/><circle cx="594" cy="789" r="6"/><circle cx="430" cy="789" r="6"/><circle cx="370" cy="728" r="6"/><circle cx="370" cy="564" r="6"/><circle cx="430" cy="503" r="6"/></g>
+<!-- numerals --> <g fill="#ff6255" font-family="Arial,Helvetica,sans-serif" font-weight="800" text-anchor="middle"><text x="512" y="529" font-size="54">12</text><text x="683" y="664" font-size="54">3</text><text x="512" y="808" font-size="54">6</text><text x="341" y="664" font-size="54">9</text></g>
+<!-- hands --> <g stroke="#ff6255" stroke-linecap="round" stroke-width="16"><line x1="512" y1="646" x2="512" y2="557"/><line x1="512" y1="646" x2="602" y2="646"/></g><circle cx="512" cy="646" r="25" fill="#ff6255"/>
+
+</g>
+</svg>
